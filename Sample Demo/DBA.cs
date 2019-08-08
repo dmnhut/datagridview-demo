@@ -27,6 +27,7 @@ namespace Sample_Demo
         /// </summary>
         /// <param name="sql">sql</param>
         /// <param name="connect">connect</param>
+        /// <param name="row">DataRow</param>
         public static void ExecuteNonQuery(String sql, SqlConnection connect, DataRow row)
         {
             SqlCommand command = new SqlCommand(sql, connect);
