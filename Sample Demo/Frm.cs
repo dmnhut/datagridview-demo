@@ -27,7 +27,7 @@ namespace Sample_Demo
         /// Frm_Load
         /// </summary>
         /// <param name="sender">sender</param>
-        /// <param name="e"EventArgs></param>
+        /// <param name="e">EventArgs</param>
         private void Frm_Load(object sender, EventArgs e)
         {
             this.dataTbl.Columns.Add("ID");
@@ -143,7 +143,6 @@ namespace Sample_Demo
         {
             this.ActiveControl = this.dgvUsers;
             GetData();
-
         }
 
         /// <summary>
