@@ -68,7 +68,7 @@ namespace Sample_Demo
             sql.Append("name = @name, ");
             sql.Append("email = @email ");
             sql.Append("WHERE ");
-            sql.Append("id = @id");
+            sql.Append("id = @id ");
             return sql.ToString();
         }
     }
