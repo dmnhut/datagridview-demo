@@ -33,6 +33,7 @@ namespace Sample_Demo
             this.dataTbl.Columns.Add("ID");
             this.dataTbl.Columns.Add("Name");
             this.dataTbl.Columns.Add("Email");
+            this.dgvUsers.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvUsers.DataSource = dataTbl;
             GetData();
         }
